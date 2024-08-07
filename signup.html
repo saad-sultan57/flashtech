@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="src/css/owl.theme.default.min.css">
+</head>
+
+<body>
+    <div class="container mx-auto px-6 sm:px-16 md:px-24 xl:px-36">
+        <div>
+            <h2 class="text-[#313131] py-8 text-xl poppins-extrabold ">Flashtech</h2>
+        </div>
+        <div class="login-main flex gap-16 ">
+            <div class="login-right hidden md:flex-1 lg:block">
+                <div class="flex justify-center items-center">
+                    <img src="src/images/signup-image.png" alt="login-image" class="w-100 h-2/3 object-cover">
+
+                </div>
+
+            </div>
+            <div
+                class="login-left mb-5 lg:mb-0 rounded-md lg:rounded-none shadow-2xl lg:shadow-none flex-1  p-5 lg:p-0 ">
+                <h3 class="text-2xl font-semibold mb-4">Sign up</h3>
+                <p class="text-sm text-gray-500">Let’s get you all st up so you can access your personal account.</p>
+
+                <div class="my-10">
+                    <form class="space-y-4 md:space-y-6" action="#">
+
+                        <div class="flex justify-between  flex-col sm:flex-row gap-5">
+                            <div class="relative flex-1">
+                                <input type="text" name="fname" id="fname"
+                                    class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border border-gray-800 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                                    placeholder=" " required>
+                                <label for="fname"
+                                    class="absolute left-3  text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4">First
+                                    Name</label>
+                            </div>
+                            <div class="relative flex-1">
+                                <input type="text" name="lname" id="lname"
+                                    class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border border-gray-800 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                                    placeholder=" " required>
+                                <label for="lname"
+                                    class="absolute left-3  text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4">Last
+                                    Name</label>
+                            </div>
+                        </div>
+                        <div class="flex justify-between  flex-col sm:flex-row gap-5">
+                            <div class="relative flex-1">
+                                <input type="email" name="email" id="email"
+                                    class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border border-gray-800 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                                    placeholder=" " required>
+                                <label for="email"
+                                    class="absolute left-3  text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4">Email</label>
+                            </div>
+                            <div class="relative flex-1">
+                                <input type="number" name="phonenumber" id="phonenumber"
+                                    class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border border-gray-800 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                                    placeholder=" " required>
+                                <label for="phonenumber"
+                                    class="absolute left-3  text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4">Phone
+                                    Number</label>
+                            </div>
+                        </div>
+
+                        <div class="relative w-full">
+                            <div class="absolute inset-y-0 right-0 flex items-center px-2 z-10">
+                                <input class="hidden js-password-toggle" id="toggle1" type="checkbox">
+                                <label class="cursor-pointer js-password-label" for="toggle1">
+                                    <i class="ri-eye-off-line js-eye-icon"></i>
+                                    <i class="ri-eye-line js-eye-slash-icon hidden"></i>
+                                </label>
+                            </div>
+                            <div class="relative">
+                                <input
+                                    class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border border-gray-800 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer js-password"
+                                    id="password" placeholder=" " type="password" autocomplete="off">
+                                <label for="password"
+                                    class="absolute left-3 text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4">Password</label>
+                            </div>
+                        </div>
+
+                        <div class="relative w-full">
+                            <div class="absolute inset-y-0 right-0 flex items-center px-2 z-10">
+                                <input class="hidden js-password-toggle" id="toggle2" type="checkbox">
+                                <label class="cursor-pointer js-password-label" for="toggle2">
+                                    <i class="ri-eye-off-line js-eye-icon"></i>
+                                    <i class="ri-eye-line js-eye-slash-icon hidden"></i>
+                                </label>
+                            </div>
+                            <div class="relative">
+                                <input
+                                    class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border border-gray-800 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer js-password"
+                                    id="confirm-password" placeholder=" " type="password" autocomplete="off">
+                                <label for="confirm-password"
+                                    class="absolute left-3 text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4">Confirm
+                                    Password</label>
+                            </div>
+                        </div>
+
+
+                        <div class="flex items-center justify-between flex-wrap mb-4">
+                            <div class="flex items-start">
+                                <div class="flex items-center h-5">
+                                    <input id="terms" aria-describedby="terms" type="checkbox"
+                                        class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600"
+                                        required>
+                                </div>
+                                <div class=" ml-3 text-sm">
+                                    <label for="terms" class="text-xs sm:text-base text-gray-800">I agree to all the
+                                        <span class="text-purple">Terms</span> and <span class="text-purple">Privacy
+                                            Policies</span></label>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit"
+                            class="w-full text-white bg-purple-700 rounded-full hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium  text-sm px-5 py-4 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Create
+                            account</button>
+
+                        <p class="text-sm md:text-base  text-center font-light text-gray-800 pb-7">
+                            Already have an account?<a href="index.html"
+                                class="font-medium text-purple hover:underline ">
+                                Login</a>
+                        </p>
+                        <div class="relative">
+                            <hr>
+                            <span
+                                class="bg-white px-3  absolute top-0 left-0 right-0 mx-auto inline-table -translate-y-3">Or
+                                login
+                                with</span>
+                        </div>
+                        <div class="flex justify-between items-center gap-5 py-5">
+                            <a href="" target="_blank" class="flex-1">
+                                <div
+                                    class="border border-purple-700 px-4 py-4 rounded flex justify-center items-center ">
+                                    <img src="src/images/fb-icon.png" alt="" class="w-5 sm:w-7">
+                                </div>
+                            </a>
+                            <a href="" target="_blank" class="flex-1">
+                                <div
+                                    class="border border-purple-700 px-4 py-4 rounded flex justify-center items-center ">
+                                    <img src="src/images/google-icon.png" alt="" class="w-5 sm:w-7">
+                                </div>
+                            </a>
+                            <a href="" target="_blank" class="flex-1">
+                                <div
+                                    class="border border-purple-700 px-4 py-4 rounded flex justify-center items-center">
+                                    <img src="src/images/apple-icon.png" alt="" class="w-4 sm:w-6">
+                                </div>
+                            </a>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Javascript Files -->
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
