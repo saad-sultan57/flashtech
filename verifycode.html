@@ -27,10 +27,13 @@
 
                 <div class="my-10">
                     <form class="space-y-4 md:space-y-6" action="#">
-                        <div>
-                            <input type="text" name="email" id="email"
-                                class="bg-gray-50 border border-gray-800 text-gray-900 rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Enter Code" required="">
+                        <div class="relative flex-1">
+                            <input type="text" name="fname" id="fname"
+                                class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border border-gray-800 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                                placeholder=" " required>
+                            <label for="fname"
+                                class="absolute left-3  text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4">
+                                Enter Code</label>
                         </div>
                         <p class="text-sm md:text-base  text-start font-normal text-gray-800 pb-7">
                             Didn’t receive a code?d<a href="#" class="font-medium text-purple hover:underline ">

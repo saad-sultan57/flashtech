@@ -7,6 +7,12 @@ body {
 @tailwind utilities;
 
 @layer components {
+  .purple-btn-own {
+    @apply focus:outline-none font-light text-white bg-[#9159fa] hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900;
+  }
+  .purple-btn-light {
+    @apply focus:outline-none font-light text-sm text-black bg-[#ECE1FF] hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5  hover:text-white dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900;
+  }
   .poppins-extrabold {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
@@ -17,5 +23,31 @@ body {
   }
   .login-right img {
     height: 600px;
+  }
+  /* Custom scrollbar styles */
+  ::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background-color: #9159fa; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color of the track (scrollbar background) */
+    border-radius: 10px; /* Rounded corners for the scrollbar track */
+  }
+
+  /* Optional: Style the scrollbar when it's being hovered */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: darkgrey; /* Darker color when hovered */
+  }
+
+  @media only screen and (max-width: 1100px) {
+    table {
+      width: 1000px !important;
+    }
   }
 }
