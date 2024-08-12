@@ -8,10 +8,10 @@ body {
 
 @layer components {
   .purple-btn-own {
-    @apply focus:outline-none font-light text-white bg-[#9159fa] hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900;
+    @apply focus:outline-none font-light text-white bg-[#9159fa] hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 !important;
   }
   .purple-btn-light {
-    @apply focus:outline-none font-light text-sm text-black bg-[#ECE1FF] hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5  hover:text-white dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900;
+    @apply focus:outline-none font-light text-sm text-black bg-[#ECE1FF] hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5  hover:text-white dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 !important;
   }
   .poppins-extrabold {
     font-family: "Poppins", sans-serif;
@@ -23,6 +23,12 @@ body {
   }
   .login-right img {
     height: 600px;
+  }
+  .flex-1 {
+    flex: 1;
+  }
+  .flex-2 {
+    flex: 2;
   }
   /* Custom scrollbar styles */
   ::-webkit-scrollbar {
